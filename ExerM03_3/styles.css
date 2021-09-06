@@ -1,0 +1,39 @@
+#container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    row-gap: 10px;
+    column-gap: 10px;
+}
+
+.logo{
+    grid-column: 1 / 2;
+    grid-row: 1/2;
+    background-color: brown;
+    width: 150px;
+}
+
+.menu{
+    grid-column: 2 / 3;
+    grid-row: 1;
+    width: 400px;
+}
+
+.vacio{
+    grid-column: 3 / 4;
+    grid-row: 1;
+}
+
+.imatge-principal{
+    grid-column: 1 / 4;
+    grid-row: 2/3;
+    background-color:gold;  
+}
+
+.foto1{
+    background-color:green;
+}
+
+.foto2{
+    background-color: rgb(216, 115, 1);
+}
